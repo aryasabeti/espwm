@@ -21,7 +21,7 @@ function init(pwm_pin, timer)
 end
 
 -- params MUST contain duty and interval
-local function pattern(params, trans_func)
+function pattern(params, trans_func)
   local params = params
   local callback = nil
 
@@ -38,7 +38,7 @@ local function pattern(params, trans_func)
   return callback
 end
 
-local function enqueue(pattern)
+function enqueue(pattern)
   table.insert(Q, pattern)
   if not tmr.state(TIMER) then
     next_pattern()
