@@ -74,4 +74,4 @@ Here the user can define patterns, for example, to fade in when the HTTP request
 
 ## Other Words
 
-espwm is brand new - right now it can only use a single output pin, and no attention has been given to efficiency. Any contributions in the form of feedback or pull requests is welcome. Enjoy.
+espwm is brand new - right now it can only use a single output pin, and no attention has been given to efficiency. Any contributions in the form of feedback or pull requests are welcome. Enjoy.
